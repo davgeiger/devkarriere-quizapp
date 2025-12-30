@@ -143,8 +143,6 @@ function checkAnswer(id) {
       }
     });
   }
-
-  console.log(element);
 }
 
 function shuffle(a) {
