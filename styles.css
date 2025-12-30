@@ -1,0 +1,47 @@
+.card {
+  margin-bottom: 1rem;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+.answer-buttons {
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.8rem;
+  border-style: none;
+  border-radius: 0.5rem;
+  background-color: #cccccc;
+}
+
+.correct-answer {
+  background-color: #0f0;
+}
+
+.wrong-answer {
+  background-color: #f00;
+}
+
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 1.4rem;
+    white-space: no-wrap;
+  }
+}
